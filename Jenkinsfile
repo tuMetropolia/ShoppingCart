@@ -6,7 +6,7 @@ pipeline {
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
         DOCKERHUB_REPO = 'mitudinh/shoppingcart'
-        DOCKER_IMAGE_TAG = 'latest_v1'
+        DOCKER_IMAGE_TAG = 'latest_v2'
         DOCKERHUB_USER = 'mitudinh'
     }
     stages {
